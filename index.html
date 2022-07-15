@@ -4,39 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="styles/normalize.min.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div class="content">
-        <div class="content-sidebar">
-            <a href="index.html" class="content-sidebar__logo">
-                <img src="" alt="My photo" title="I'm Kirill">
-                <h1>Kirill Kshenyov</h1>
-            </a>
-            <nav>
-                <ul class="content-sidebar__list">
-                    <li class="content-sidebar__item"><a href="#" class="content-sidebar__link">About Me</a></li>
-                    <li class="content-sidebar__item"><a href="#" class="content-sidebar__link">Resume</a></li>
-                    <li class="content-sidebar__item"><a href="#" class="content-sidebar__link">Portfolio</a></li>
-                    <li class="content-sidebar__item"><a href="#" class="content-sidebar__link">My Experience</a></li>
-                    <li class="content-sidebar__item"><a href="#" class="content-sidebar__link">Contact</a></li>
-                </ul>
-            </nav>
-            <ul class="social-list">
-                <li class="social-list__item"><a href="" target="_blank" class="social-list__link social-list__vk"></a></li>
-                <li class="social-list__item"><a href="" target="_blank" class="social-list__link social-list__lin"></a></li>
-                <li class="social-list__item"><a href="" target="_blank" class="social-list__link social-list__git"></a></li>
-            </ul>
+    <header class="header">
+        <div class="header-logo">
 
         </div>
-        <main class="content-main">
-
-        </main>
-        <footer class="content-footer">
-
-        </footer>
+        <div class="header-nav">
+            <ul class="header-nav__list">
+                <li class="header-nav__item"><a href="#" class="header-nav__link link">Home</a></li>
+                <li class="header-nav__item"><a href="#" class="header-nav__link link">About</a></li>
+                <li class="header-nav__item"><a href="#" class="header-nav__link link">Portfolio</a></li>
+                <li class="header-nav__item"><a href="#" class="header-nav__link link">Contact Me</a></li>
+            </ul>
+        </div>
+        <div class="header-social">
+            <ul class="header-social__list">
+                <li class="header-social__item"><a href="" target="_blank" class="header-social__link header-social__vk"></a></li>
+                <li class="header-social__item"><a href="" target="_blank" class="header-social__link header-social__lin"></a></li>
+                <li class="header-social__item"><a href="" target="_blank" class="header-social__link header-social__git"></a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="main">
+        <section class="main-home">
+            <div class="main-home__container">
+                <p class="main-home__text">Welcome</p>
+                <h2 class="main-home__name">I'm Kirill Kshenyov</h2>
+                <h3 class="main-home__speciality">Junior Frontend Developer</h3>
+                <p class="main-home__toabout"><a href="#about" class="main-home__link link">About Me</a></p>
+            </div>
+        </section>
     </div>
+
 </body>
 </html>
