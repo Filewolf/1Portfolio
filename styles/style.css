@@ -1,56 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap');
+
 body {
     background: #111;
 }
 body, html {
-    height: 100vh;
-    width: 100vw;
+    font-family: 'Jost', sans-serif;
 }
-.content {
-    display: grid;
-    grid-template-columns: 1fr 261px;
-    grid-template-rows: 1fr;
-    height: 100%;
+.link {
+    text-decoration: none;
 }
-.content-sidebar {
-    border: 1px solid;
-    grid-column: 2 / 2;
+.header {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    height: 8%;
+    padding: 0 20px;
+    border-bottom: 1px solid;
+
 }
-.content-sidebar__logo {
+.header-logo {
+    border: red solid;
+    width: 4%;
+    margin: 10px 0;
+}
+.header-nav__list {
     display: flex;
-    flex-flow: column nowrap;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 0%;
-}
-.content-sidebar__list {
     list-style: none;
-    padding-left: 0;
-    text-align: center;
-    margin-top: 30%;
-    margin-bottom: 30%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
-.social-list {
-    padding-left: 0;
+.header-nav__item {
+    margin-right: 40px;
+}
+.header-nav__link {
+    color: #fff;
+    font-size: 21px;
+}
+.header-social__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     list-style: none;
 }
-.social-list__link {
+.header-social__link {
     display: block;
     width: 48px;
     height: 48px;
     background-repeat: no-repeat;
-    background-position: center;
 }
-.social-list__vk {
+.header-social__vk {
     background-image: url(../images/vk.svg);
 }
-.social-list__lin {
-    background-image: url(../images/lin.svg);
+.header-social__lin {
+    background-image: url(../images/vk.svg);
 }
-.social-list__git {
-    background-image: url(../images/git.svg);
+.header-social__git {
+    background-image: url(../images/vk.svg);
 }
-.content-main {
-    grid-column: 2 / 3;
+.main {
+    height: 100%;
+}
+.main-home {
+    height: 100%;
+}
+.main-home__container {
+    text-align: center;
 }
