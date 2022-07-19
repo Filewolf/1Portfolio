@@ -9,35 +9,87 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header-logo">
+    <div class="header-container">
+        <header class="header">
+            <div class="header-logo">
 
-        </div>
-        <div class="header-nav">
-            <ul class="header-nav__list">
-                <li class="header-nav__item"><a href="#" class="header-nav__link link">Home</a></li>
-                <li class="header-nav__item"><a href="#" class="header-nav__link link">About</a></li>
-                <li class="header-nav__item"><a href="#" class="header-nav__link link">Portfolio</a></li>
-                <li class="header-nav__item"><a href="#" class="header-nav__link link">Contact Me</a></li>
-            </ul>
-        </div>
-        <div class="header-social">
-            <ul class="header-social__list">
-                <li class="header-social__item"><a href="" target="_blank" class="header-social__link header-social__vk"></a></li>
-                <li class="header-social__item"><a href="" target="_blank" class="header-social__link header-social__lin"></a></li>
-                <li class="header-social__item"><a href="" target="_blank" class="header-social__link header-social__git"></a></li>
-            </ul>
-        </div>
-    </header>
-    <div class="main">
-        <section class="main-home">
-            <div class="main-home__container">
-                <p class="main-home__text">Welcome</p>
-                <h2 class="main-home__name">I'm Kirill Kshenyov</h2>
-                <h3 class="main-home__speciality">Junior Frontend Developer</h3>
-                <p class="main-home__toabout"><a href="#about" class="main-home__link link">About Me</a></p>
             </div>
-        </section>
+            <div class="header-nav">
+                <ul class="header-nav__list">
+                    <li class="header-nav__item"><a href="#" class="header-nav__link link">Home</a></li>
+                    <li class="header-nav__item"><a href="#" class="header-nav__link link">About</a></li>
+                    <li class="header-nav__item"><a href="#" class="header-nav__link link">Portfolio</a></li>
+                    <li class="header-nav__item"><a href="#" class="header-nav__link link">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="header-social">
+                <ul class="header-social__list">
+                    <li class="header-social__item">
+                        <a href="#" target="_blank">
+                            <img src="images/vk.svg" alt="vk">
+                        </a>
+                    </li>
+                    <li class="header-social__item">
+                        <a href="#" target="_blank">
+                            <img src="images/vk.svg" alt="vk">
+                        </a>
+                    </li>
+                    <li class="header-social__item">
+                        <a href="#" target="_blank">
+                            <img src="images/vk.svg" alt="vk">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </div>
+    <div class="page">
+        <div class="main">
+            <section class="main-home">
+                <div class="main-home__text">
+                    <p class="main-home__welcome">Welcome, I'm</p>
+                    <h2 class="main-home__name inter">Kirill Kshenyov</h2>
+                    <h3 class="main-home__speciality">Junior Frontend Developer</h3>
+                </div>
+                <div class="main-home__btns">
+                    <p class="main-home__button"><a href="#" class="main-home__link cv link">Download CV</a></p>
+                    <p class="main-home__button"><a href="#about" class="main-home__link toabout link">About Me</a></p>
+                </div>
+                <div class="main-home__photo">
+                    <img src="images/photo.png" alt="My photo" class="my-photo">
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="page">
+        <div class="main">
+            <section class="main-about" id="about">
+                <div class="page-title">
+                    <h1 class="title">About Me</h1>
+                    <p class="description">My Intro</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="page">
+        <div class="main">
+            <section class="main-portfolio">
+                <div class="page-title">
+                    <h1 class="title">About Me</h1>
+                    <p class="description">My Intro</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="page">
+        <div class="main">
+            <section class="main-contact">
+                <div class="page-title">
+                    <h1 class="title">About Me</h1>
+                    <p class="description">My Intro</p>
+                </div>
+            </section>
+        </div>
     </div>
 </body>
 </html>
