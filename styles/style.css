@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&family=Jost:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Jost:wght@300;400;500;600;700&display=swap');
 
 * {
     box-sizing: border-box;
@@ -27,18 +27,21 @@ li {
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
-    max-width: 1281px;
+    padding: 0 24px;
 }
 .header-logo {
-    border: 2px solid;
-    width: 4%;
+    display: flex;
+    justify-content: flex-start;
+    width: 16.66667%;
     margin: 0;
+}
+.header-nav {
+    width: 66.66667%;
 }
 .header-nav__list {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 100%;
     padding: 0;
@@ -47,6 +50,9 @@ li {
 .header-nav__item {
     padding-left: 34px;
 }
+.header-nav__item:first-child {
+    padding-left: 0;
+}
 .header-nav__link {
     color: #fff;
     font-size: 20px;
@@ -54,6 +60,11 @@ li {
 }
 .header-nav__link:hover {
     color: #FFA97A;
+}
+.header-social {
+    width: 16.66667%;
+    display: flex;
+    justify-content: flex-end;
 }
 .header-social__list {
     display: flex;
@@ -67,7 +78,7 @@ li {
     height: 48px;
 }
 .page {
-    max-width: 602px;
+    max-width: 1202px;
     margin: 0 auto;
 }
 .page-title {
@@ -141,7 +152,7 @@ li {
     transition: .2s ease background-color;
 }
 .toabout:hover {
-    color: #692602;
+    color: #ffffff;
     background-color: #d38c66;
 }
 .cv {
@@ -158,6 +169,51 @@ li {
     border: 2px solid;
     background-color: #666;
     border-radius: 50% 50%;
+}
+.main-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main-about__basic {
+    width: 66.06667%;
+    margin-top: 30px;
+    padding: 0 20px;
+    background-color: #182228;
+}
+.main-about__text {
+    color: #959595;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px; 
+    letter-spacing: 0.2px;
+    margin: 0;
+    padding: 11px 0;
+}
+.main-about__info {
+    width: 33.33333%;
+    margin-top: 30px;
+    padding: 0 10px;
+    background-color: #182228;
+}
+.main-about__list {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 0;
+    margin: 0;
+}
+.main-about__item {
+    color: rgb(223, 223, 223);
+    font-weight: 500;
+    padding: 10px 0;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #c27851;
+}
+.main-about__item:last-of-type {
+    margin-bottom: 20px; 
+}
+.field {
+    font-weight: 700;
 }
 .contact-container {
     display: flex;
@@ -183,7 +239,7 @@ li {
     margin-top: 58px;
 }
 .footer {
-    max-width: 602px;
+    max-width: 1202px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -235,5 +291,5 @@ li {
 .footer-rights {
     font-weight: 800;
     font-size: 12px;
-    margin-top: 86px;
+    margin-top: 64px;
 }
